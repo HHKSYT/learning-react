@@ -1,0 +1,20 @@
+.card{
+    border: 1px solid #381291;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px hsl(0, 0%,0%,0.3);
+    max-width: 250px;
+    display: inline-block;
+}
+
+.card .title{
+    color: green;
+}
+.card .des{
+
+}
+
+.card .image{
+
+}
