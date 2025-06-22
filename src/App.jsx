@@ -1,17 +1,10 @@
-import { useState } from "react";
-import UserGreeting from "./UserGreeting.jsx";
-import Button from './Button.jsx';
+import Counter from './Counter.jsx'
+import ColorPicker from './Colorpicker.jsx';
 
 function App() {
-
-  const [isLoggedIn, setisLoggedIn] = useState(false);
-  const handleLoginToggle = () => {
-    setisLoggedIn(prev => !prev)
-  };
   return (
     <>
-      <UserGreeting isLoggedIn={isLoggedIn} />;
-      <Button onLoginToggle={handleLoginToggle} />;
+    <ColorPicker />
     </>
   );
 }

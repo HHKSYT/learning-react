@@ -1,25 +1,23 @@
-.student{
-  font-family: Arial, sans-serif;
-  font-size: 2em;
-  padding: 10px;
-  border: 1px solid hsl(0, 0%,50%, 0.8);
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid;
+  background-color: hsla(209, 91%, 47%, 0.836);
+
 }
 
-.student p{
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: #342523;
+  text-align: center;
   margin: 0;
 }
-
-.card{
-    /* background: black; */
-}
-
-.card .title{
-    color: green;
-}
-.card .des{
-
-}
-
-.card .image{
-
+.list-items li:hover{
+  color: #018285;
+  cursor: pointer;
 }
