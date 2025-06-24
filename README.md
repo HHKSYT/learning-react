@@ -18,3 +18,6 @@ Learnt about props, useState, onChange
 ## Day 4
 Created a fun little project it's a color picker
 
+## Day 5
+
+created a todo list app

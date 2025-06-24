@@ -1,10 +1,12 @@
 
-import ColorPicker from './Colorpicker.jsx';
+import MyComponent from "./MyComponent";
+import TodoList from "./Todolist";
+import Test from "./test";
 
 function App() {
   return (
     <>
-    <ColorPicker />
+      <TodoList />
     </>
   );
 }
