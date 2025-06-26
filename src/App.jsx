@@ -1,12 +1,12 @@
 
-import MyComponent from "./MyComponent";
+import MyComponent from "./MyComponent.jsx";
 import TodoList from "./Todolist";
-import Test from "./test";
+import Clock from './Clock.jsx'
 
 function App() {
   return (
     <>
-      <TodoList />
+      <Clock />
     </>
   );
 }

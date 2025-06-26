@@ -1,0 +1,40 @@
+.react-calendar__tile--active {
+  background: none !important;
+  color: inherit !important;
+  font-weight: normal !important;
+}
+
+.react-calendar__tile--now {
+  background-color: #0d6efd !important;  /* light yellow, customize it */
+  color: black !important;             /* dark text color */
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+.react-calendar__tile.bg-success-edit {
+  background-color: #32e747 !important; /* ← your custom green */
+  color: black !important;            /* optional text color */
+  border-radius: 0.3rem;
+}
+
+
+.react-calendar__tile.bg-warning-edit {
+  background-color: #edf03d !important; /* ← your custom green */
+  color: black !important;            /* optional text color */
+  border-radius: 0.3rem;
+}
+.react-calendar__tile.bg-danger-edit {
+  background-color: #e73232 !important; /* ← your custom green */
+  color: black !important;            /* optional text color */
+  border-radius: 0.3rem;
+}
+
+.react-calendar{
+  font-family: sans-serif;
+}
+.react-calendar__tile{
+  
+  margin: 4px !important;
+  padding: 10px !important;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
